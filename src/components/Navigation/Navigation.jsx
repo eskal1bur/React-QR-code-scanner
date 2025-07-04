@@ -4,10 +4,10 @@ import s from './Navigation.module.css';
 const Navigation = () => {
     return (
         <nav className={s.container}>
-            <Link to="/generate">Генерировать QR-код</Link>
-            <Link to='/scan'>Сканировать QR-код</Link>
-            <Link to='/generateHistory'>История генерирования</Link>
-            <Link to='/scanHistory'>История сканирования</Link>
+            <Link to="/react-QR-code-scanner/generate">Генерировать QR-код</Link>
+            <Link to='/react-QR-code-scanner/scan'>Сканировать QR-код</Link>
+            <Link to='/react-QR-code-scanner/generateHistory'>История генерирования</Link>
+            <Link to='/react-QR-code-scanner/scanHistory'>История сканирования</Link>
         </nav>
     );
 };
